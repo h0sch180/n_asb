@@ -3,9 +3,6 @@ cd ../../../../../..
 cd build
 git fetch https://github.com/LineageOS/android_build refs/changes/98/250998/1 && git cherry-pick FETCH_HEAD
 cd ..
-cd bionic
-git fetch https://github.com/LineageOS/android_bionic refs/changes/78/251178/1 && git cherry-pick FETCH_HEAD
-cd ..
 #cd external/libhevc
 #git fetch https://github.com/LineageOS/android_external_libhevc refs/changes/99/250999/1 && git cherry-pick FETCH_HEAD
 #git fetch https://github.com/LineageOS/android_external_libhevc refs/changes/00/251000/1 && git cherry-pick FETCH_HEAD
@@ -24,7 +21,7 @@ cd ..
 #git fetch https://github.com/LineageOS/android_system_bt refs/changes/66/250966/3 && git cherry-pick FETCH_HEAD
 #cd ../..
 
-## Add some optional features / the feature is only optional
+## Add some optional features from latest patches
 
 #add vpn nougat data restriction
 cd packages/apps/Settings
