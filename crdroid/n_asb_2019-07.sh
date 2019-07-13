@@ -31,3 +31,8 @@ cd ../..
 cd frameworks/base
 git fetch https://github.com/LineageOS/android_frameworks_base refs/changes/96/234096/5 && git cherry-pick FETCH_HEAD
 cd ../..
+
+#upgrade tzdata from 2018e to 2019b
+cd bionic
+git fetch "https://github.com/LineageOS/android_bionic" refs/changes/78/251178/1 && git cherry-pick FETCH_HEAD
+cd ..
