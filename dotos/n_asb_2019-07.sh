@@ -21,7 +21,7 @@ cd ../..
 #git fetch https://github.com/LineageOS/android_system_bt refs/changes/66/250966/3 && git cherry-pick FETCH_HEAD
 #cd ../..
 
-# Update optional features to newest version
+## Add some optional features / the feature is only optional
 
 #add vpn nougat data restriction
 cd packages/apps/Settings

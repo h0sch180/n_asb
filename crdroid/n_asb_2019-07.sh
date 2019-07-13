@@ -3,6 +3,9 @@ cd ../../../../../..
 cd build
 git fetch https://github.com/LineageOS/android_build refs/changes/98/250998/1 && git cherry-pick FETCH_HEAD
 cd ..
+cd bionic
+git fetch https://github.com/LineageOS/android_bionic refs/changes/78/251178/1 && git cherry-pick FETCH_HEAD
+cd ..
 #cd external/libhevc
 #git fetch https://github.com/LineageOS/android_external_libhevc refs/changes/99/250999/1 && git cherry-pick FETCH_HEAD
 #git fetch https://github.com/LineageOS/android_external_libhevc refs/changes/00/251000/1 && git cherry-pick FETCH_HEAD
@@ -21,7 +24,7 @@ cd ..
 #git fetch https://github.com/LineageOS/android_system_bt refs/changes/66/250966/3 && git cherry-pick FETCH_HEAD
 #cd ../..
 
-# Update optional features to newest version
+## Add some optional features / the feature is only optional
 
 #add vpn nougat data restriction
 cd packages/apps/Settings
@@ -33,8 +36,3 @@ cd ../..
 cd frameworks/base
 git fetch https://github.com/LineageOS/android_frameworks_base refs/changes/96/234096/5 && git cherry-pick FETCH_HEAD
 cd ../..
-
-#upgrade tzdata from 2018e to 2019b
-cd bionic
-git fetch "https://github.com/LineageOS/android_bionic" refs/changes/78/251178/1 && git cherry-pick FETCH_HEAD
-cd ..
