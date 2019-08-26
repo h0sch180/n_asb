@@ -10,9 +10,9 @@ adds security patch for ViperOS Extended 3.1.3
 
 **the way to do:**
 ```
-git clone https://github.com/seluce/n_asb device/CUBOT/NOTE_S/patches/n_asb
+git clone https://github.com/h0sch180/n_asb device/CUBOT/MAX/patches_mtk/n_asb
 
-cd device/CUBOT/NOTE_S/patches/n_asb/viperosextended
+cd device/CUBOT/MAX/patches_mtk/n_asb/viperosextended
 
 . apply-patches.sh
 ```
