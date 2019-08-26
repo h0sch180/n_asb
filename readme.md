@@ -11,6 +11,8 @@ We can add now almost all important security and feature patches directly in sou
 
 > CrDroid 3.8.9 
 
+> ViperOS Extended 3.1.3 
+
 > DotOS 1.2
 
 **PLATFORM_SECURITY_PATCH**
