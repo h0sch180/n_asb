@@ -1,5 +1,5 @@
 #!/bin/bash
-cd ../../../../../..
+cd ../..
 #git fetch "https://github.com/LineageOS/android" refs/changes/90/252990/1 && git cherry-pick FETCH_HEAD
 cd build
 git fetch "https://github.com/LineageOS/android_build" refs/changes/91/255891/1 && git cherry-pick FETCH_HEAD

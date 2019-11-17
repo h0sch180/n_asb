@@ -1,5 +1,5 @@
 #!/bin/bash
-cd ../../../../../..
+cd ../..
 cd build
 git fetch "https://github.com/LineageOS/android_build" refs/changes/13/252813/1 && git cherry-pick FETCH_HEAD
 cd ..
@@ -44,9 +44,9 @@ cd ..
 #cd external/chromium-libpac
 #git fetch "https://github.com/LineageOS/android_external_chromium-libpac" refs/changes/96/252796/1 && git cherry-pick FETCH_HEAD
 #cd ../..
-cd packages/services/Telecomm
-git fetch "https://github.com/LineageOS/android_packages_services_Telecomm" refs/changes/12/252812/2 && git cherry-pick FETCH_HEAD
-cd ../../..
+#cd packages/services/Telecomm
+#git fetch "https://github.com/LineageOS/android_packages_services_Telecomm" refs/changes/12/252812/2 && git cherry-pick FETCH_HEAD
+#cd ../../..
 #cd external/libhevc
 #git fetch "https://github.com/LineageOS/android_external_libhevc" refs/changes/33/252933/1 && git cherry-pick FETCH_HEAD
 #cd ../..
