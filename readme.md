@@ -17,4 +17,4 @@ We can add now almost all important security and feature patches directly in sou
 
 **PLATFORM_SECURITY_PATCH**
 > STABLE:
-> PLATFORM_SECURITY_PATCH := **2019-11-05**
+> PLATFORM_SECURITY_PATCH := **2020-01-05**
