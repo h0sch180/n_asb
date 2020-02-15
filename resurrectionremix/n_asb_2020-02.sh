@@ -24,6 +24,7 @@ cd ../..
 #git fetch "https://github.com/LineageOS/android_packages_apps_CertInstaller" refs/changes/58/268258/1 && git cherry-pick FETCH_HEAD
 #cd ../../..
 #cd external/sqlite
-#git fetch "https://github.com/LineageOS/android_external_sqlite" refs/changes/57/268257/1 && git cherry-pick FETCH_HEAD
+#git fetch "https://github.com/LineageOS/android_external_sqlite" refs/changes/03/268803/1 && git cherry-pick FETCH_HEAD
+#git fetch "https://github.com/LineageOS/android_external_sqlite" refs/changes/04/268804/1 && git cherry-pick FETCH_HEAD
 #cd ../..
 
