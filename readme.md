@@ -15,6 +15,12 @@ We can add now almost all important security and feature patches directly in sou
 
 **PLATFORM_SECURITY_PATCH**
 > STABLE:
+<<<<<<< HEAD
+=======
+> PLATFORM_SECURITY_PATCH := **2020-02-05**
+
+> TESTING:
+>>>>>>> c40073f38e0b97a22427259df9935bbf15dcf85b
 > PLATFORM_SECURITY_PATCH := **2020-03-05**
 > TESTING:
 > PLATFORM_SECURITY_PATCH := **---**
