@@ -51,10 +51,13 @@ bash n_asb_2020-06.sh
 cd $CURRENT_DIR
 bash n_asb_2020-07.sh
 
+cd $CURRENT_DIR
+bash n_asb_2020-08.sh
+
 sleep 1
 echo -e "\n all patches are included now"
 sleep 2
-echo -e "\n bump security patch level to 2020-07-05"
+echo -e "\n bump security patch level to 2020-08-05"
 echo -e "\n script by h0sch180"
 
 cd ../..
