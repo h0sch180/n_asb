@@ -81,10 +81,13 @@ bash n_asb_2020-07.sh
 cd $CURRENT_DIR
 bash n_asb_2020-08.sh
 
+cd $CURRENT_DIR
+bash n_asb_2020-09.sh
+
 sleep 1
 echo -e "\n all patches are included now"
 sleep 2
-echo -e "\n bump security patch level to 2020-08-05"
+echo -e "\n bump security patch level to 2020-09-05"
 echo -e "\n script by seluce (until 2019-08-05)"
 echo -e "\n script by h0sch180 + seluce (2019-09-05 until now)"
 
