@@ -11,8 +11,8 @@ git fetch "https://github.com/LineageOS/android_packages_services_Telephony" ref
 cd ../../..
 cd frameworks/base
 git fetch "https://github.com/LineageOS/android_frameworks_base" refs/changes/33/285833/3 && git cherry-pick FETCH_HEAD
-git fetch "https://github.com/LineageOS/android_frameworks_base" refs/changes/34/285834/3 && git cherry-pick FETCH_HEAD
-git fetch "https://github.com/LineageOS/android_frameworks_base" refs/changes/97/286097/1 && git cherry-pick FETCH_HEAD
+#git fetch "https://github.com/LineageOS/android_frameworks_base" refs/changes/34/285834/3 && git cherry-pick FETCH_HEAD
+#git fetch "https://github.com/LineageOS/android_frameworks_base" refs/changes/97/286097/1 && git cherry-pick FETCH_HEAD
 cd ../..
 #cd system/bt
 #git fetch "https://github.com/LineageOS/android_system_bt" refs/changes/30/285830/6 && git cherry-pick FETCH_HEAD
