@@ -16,6 +16,7 @@ We can add now almost all important security and feature patches directly in sou
 **PLATFORM_SECURITY_PATCH**
 > STABLE ViperOS:
 > PLATFORM_SECURITY_PATCH := **2021-03-05**
+
 > STABLE CrDroid & RR:
 > PLATFORM_SECURITY_PATCH := **2020-12-05**
 
