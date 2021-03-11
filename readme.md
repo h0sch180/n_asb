@@ -14,7 +14,9 @@ We can add now almost all important security and feature patches directly in sou
 > ViperOS Extended 3.1.3 
 
 **PLATFORM_SECURITY_PATCH**
-> STABLE:
+> STABLE ViperOS:
+> PLATFORM_SECURITY_PATCH := **2021-03-05**
+> STABLE CrDroid & RR:
 > PLATFORM_SECURITY_PATCH := **2020-12-05**
 
 > TESTING:
