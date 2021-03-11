@@ -19,6 +19,3 @@ We can add now almost all important security and feature patches directly in sou
 
 > STABLE CrDroid & RR:
 > PLATFORM_SECURITY_PATCH := **2020-12-05**
-
-> TESTING:
-> PLATFORM_SECURITY_PATCH := **---**
