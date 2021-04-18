@@ -75,10 +75,13 @@ bash n_asb_2021-02.sh
 cd $CURRENT_DIR
 bash n_asb_2021-03.sh
 
+cd $CURRENT_DIR
+bash n_asb_2021-04.sh
+
 sleep 1
 echo -e "\n all patches are included now"
 sleep 2
-echo -e "\n bump security patch level to 2021-03-05"
+echo -e "\n bump security patch level to 2021-04-05"
 echo -e "\n script by h0sch180"
 
 cd ../..
